@@ -9,7 +9,7 @@ auth.set_access_token("Access token", "Access token secret")
 
 api = tweepy.API(auth)
 
-# Method: Print Tweets by a keyword in a specific language and specific
+# Method: Print Tweets by a keyword in a specific language and specific Keyword
 
 
 try:
