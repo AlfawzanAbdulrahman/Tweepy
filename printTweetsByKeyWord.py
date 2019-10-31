@@ -15,7 +15,7 @@ api = tweepy.API(auth)
 try:
 	numOfTwwets = 10
 	file = open("tweets.txt", "w+")
-	for tweet in api.search(q="Saudi Arabia", lang="en", rpp=numOfTwwets):
+	for tweet in api.search(q="DePaul University", lang="en", rpp=numOfTwwets):
 		file.write(f"{tweet.user.name}:{tweet.text}")
 		file.write(4*"\n")
 
